@@ -7,7 +7,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta, time
 
-news_api_key = "73ce14b9d24f405c9ff7d1f7250774f8"
+news_api_key = ""
 news_api = NewsApiClient(api_key=news_api_key)
 
 # set datetime variables for airflow
